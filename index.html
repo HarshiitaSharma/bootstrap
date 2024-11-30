@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Minimalist Bootstrap Page</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+      body {
+          background-color: plum;
+      }
+      .hero {
+          background: linear-gradient(135deg, #6a11cb, #2575fc);
+          color: white;
+          padding: 60px 0;
+          text-align: center;
+          border-bottom: 5px solid #fff;
+      }
+      .service-card {
+          transition: transform 0.3s;
+          border: none;
+
+      }
+      .service-card:hover {
+          transform: translateY(-10px);
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      }
+      footer {
+          background-color: #343a40;
+          color: white;
+          padding: 15px 0;
+          text-align: center;
+      }
+  </style>
+</head>
+<body>
+
+  <header class="hero">
+      <h1>Embrace Minimalism</h1>
+      <p>Where simplicity meets creativity.</p>
+  </header>
+
+  <div class="container text-center mt-5">
+      <h2>Our Unique Services</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card service-card mb-4">
+                  <div class="card-body">
+                      <h5 class="card-title">Design</h5>
+                      <p class="card-text">Crafting visually stunning and user-friendly designs.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card service-card mb-4">
+                  <div class="card-body">
+                      <h5 class="card-title">Development</h5>
+                      <p class="card-text">Building robust and scalable web applications.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card service-card mb-4">
+                  <div class="card-body">
+                      <h5 class="card-title">Marketing</h5>
+                      <p class="card-text">Innovative strategies to elevate your brand.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <footer>
+      <p>&copy; 2024 Creative Minimalist Bootstrap Page</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
